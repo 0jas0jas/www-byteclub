@@ -7,7 +7,7 @@ Single-page bilingual (FR/EN) marketing site for Byte Club, a cohort-based progr
 - `npm run dev` / `npm run build` / `npm run lint` / `npm run typecheck`
 - Run typecheck, lint and build after every change. All three should be clean (no warnings).
 - Use npm. There's also a `bun.lock`, but npm is what's been used.
-- **This folder is not a git repo.** Deletions can't be undone, so ask before deleting files.
+- Git repo on GitHub (`0jas0jas/www-byteclub`, branch `main`). `.gitignore` excludes `node_modules`, `.next/`, `.env*` and other generated files, so never commit those. Ask before deleting untracked files.
 
 ## Stack
 
