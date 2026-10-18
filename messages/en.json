@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "title": "Byte Club — Free software for nonprofits, built by high school students",
+    "description": "Byte Club connects nonprofits with teams of high school students who build solutions to real problems, for free. We handle everything in between."
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Byte Club, home",
+    "main": "Main",
+    "menuOpen": "Menu",
+    "menuClose": "Close menu",
+    "links": {
+      "how": "How it works",
+      "nonprofits": "Nonprofits",
+      "students": "Students",
+      "team": "Team",
+      "faq": "FAQ"
+    }
+  },
+  "locale": {
+    "label": "Language",
+    "switchTo": "Passer au français",
+    "fr": "FR",
+    "en": "EN"
+  },
+  "theme": {
+    "label": "Theme",
+    "system": "Use system theme",
+    "light": "Light theme",
+    "dark": "Dark theme"
+  },
+  "hero": {
+    "eyebrow": "Byte Club · Quebec → everywhere",
+    "title": "Free software for nonprofits, built by high school students.",
+    "subtitle": "Byte Club is a cohort-based program that connects high school students with nonprofits. Students make a real-world impact on meaningful projects. Nonprofits get skilled work for free. We handle both ends and make sure it goes smoothly for everyone.",
+    "ctaNonprofit": "I'm a nonprofit",
+    "ctaStudent": "I'm a student",
+    "imageAlt": "Students gathered around a whiteboard, brainstorming ideas together"
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Four steps, no mystery",
+    "intro": "We're not a system you have to fit into. We're built to fit around your needs. Getting from your form to a decision takes about 3–4 weeks.",
+    "steps": {
+      "form": {
+        "title": "You fill out one form",
+        "body": "Describe your problem in your own words, and share any other thoughts you have for us. No tech knowledge needed."
+      },
+      "call": {
+        "title": "We get on a call",
+        "body": "We read every form ourselves, then reach out and set up a call so we properly understand your organization and what you need."
+      },
+      "decide": {
+        "title": "We decide if we can help",
+        "body": "We look at each organization case by case and design a project around your needs. If we can't help, we'll tell you honestly."
+      },
+      "build": {
+        "title": "A student team builds it",
+        "body": "A small team of students builds the solution with you, and we stay connected to your organization to keep helping after."
+      }
+    }
+  },
+  "nonprofits": {
+    "eyebrow": "For nonprofits",
+    "title": "We want to help you help the world",
+    "intro": "We care about the meaningful work your organization does. All we want is to help you solve the problems you have, while giving students real-world experience.",
+    "items": {
+      "get": {
+        "title": "How this helps you",
+        "body": "A solution designed around how your team actually works, built by people who care whether it works. You get the code and plain-language docs."
+      },
+      "cost": {
+        "title": "What it costs",
+        "body": "It won't cost you any money. It will cost you a good chunk of your time, though. We need it to understand your problem properly, stay connected to your organization, and keep helping you."
+      },
+      "need": {
+        "title": "What we need from you",
+        "body": "To get started, one form. After that, your time: someone who can answer our questions and tell us honestly when something's off."
+      },
+      "after": {
+        "title": "After handoff",
+        "body": "We don't build something and walk away. We train your team, stay around for fixes, and make sure you're never locked in. It's your software."
+      }
+    },
+    "fitTitle": "Is this worth your time?",
+    "fitIntro": "Honestly, only if you have a real problem in your organization and you're okay with:",
+    "fit": {
+      "slow": "Things moving a little slower than a paid agency",
+      "mistakes": "A few mistakes along the way",
+      "students": "Working with students who are still learning"
+    },
+    "cta": "Tell us about your project"
+  },
+  "students": {
+    "eyebrow": "For students",
+    "title": "Make meaningful work, for people who need it",
+    "intro": "Byte Club connects you with a nonprofit that has a real problem. You work in a small team to solve it, and what you build actually gets used.",
+    "items": {
+      "do": {
+        "title": "What you'll do",
+        "body": "Join a small team, talk with a real nonprofit, understand their problem, and build something that solves it."
+      },
+      "learn": {
+        "title": "How this benefits you",
+        "body": "You'll learn the things school skips: Git, code review, working with a real organization, and how to finish what you start."
+      },
+      "time": {
+        "title": "Will it fit your schedule?",
+        "body": "Around 4–6 hours a week for one cohort (about 3 months). You have an academic life, and so do we. We plan around exams."
+      },
+      "resume": {
+        "title": "What you walk away with",
+        "body": "A real project for a real organization, a reference from a mentor, and work you can actually show people."
+      }
+    },
+    "fitTitle": "Am I good enough?",
+    "fitIntro": "You don't need to be an expert. Devs and designers from anywhere are welcome. You just need:",
+    "fit": {
+      "age": "To be in high school and at least 14",
+      "built": "To have built something before, even something small",
+      "reliable": "Curiosity, and to show up when you say you will"
+    },
+    "cta": "Apply to a cohort",
+    "discord": "Join the Discord"
+  },
+  "status": {
+    "eyebrow": "Who we are",
+    "title": "Yes, this is real. Here's the honest version.",
+    "body": "We're a group of college and high school students, and everyone on our team has built real things before. Our first cohort in 2025 didn't go the way we wanted, so we took what we learned and rebuilt how Byte Club works.",
+    "doneTitle": "Done so far",
+    "done": {
+      "one": "Ran our first cohort in 2025, and learned a lot from what went wrong",
+      "two": "Worked on a logistics tool for an animal shelter in Lucknow, India",
+      "three": "Started a Discord where students help each other out"
+    },
+    "nextTitle": "What we're working toward",
+    "next": {
+      "one": "Running our next cohort on the system we've rebuilt",
+      "two": "Working with more nonprofits, especially here in Quebec",
+      "three": "Growing our team of mentors"
+    }
+  },
+  "team": {
+    "eyebrow": "Team",
+    "title": "The people behind it",
+    "intro": "We're college and high school students. Everyone here has built things before, and we're here because we want to make a meaningful difference.",
+    "link": "{name}'s profile"
+  },
+  "involved": {
+    "eyebrow": "Get involved",
+    "title": "Not a student or a nonprofit? You can still help.",
+    "items": {
+      "mentors": {
+        "title": "Mentors",
+        "body": "Developers and designers who can review students' work or give feedback a couple of hours a month."
+      },
+      "sponsors": {
+        "title": "Sponsors",
+        "body": "Companies that can cover costs like hosting, domains or software licenses, so nonprofits never have to pay."
+      },
+      "partners": {
+        "title": "Partners",
+        "body": "Schools, clubs and organizations that know students or nonprofits we should meet."
+      }
+    },
+    "cta": "Get in touch"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions you might have",
+    "items": {
+      "capable": {
+        "q": "Are students actually capable of this?",
+        "a": "We have a lot to learn, and we'll be the first to say it. We're students with full academic lives. But everyone on our team has built real things before, and we only take on projects a student team can realistically deliver. We're not here to pad a resume and move on. We're here because we want to make a real difference, and we'll keep getting better at it."
+      },
+      "wrong": {
+        "q": "What happens if something goes wrong?",
+        "a": "It can happen. We keep projects small to make it less likely, and if something slips, we'll tell you right away and the next cohort can pick it up. You'll always know where things stand."
+      },
+      "disappear": {
+        "q": "What if you disappear like everyone else?",
+        "a": "We get it, you've probably been burned before. Staying connected to your organization is the whole point of how we're set up. And even in the worst case, you're not stuck: you have full rights to the code and plain-language docs, so anyone can pick it up."
+      },
+      "cost": {
+        "q": "Does it cost anything?",
+        "a": "No money, for nonprofits or students. It does cost nonprofits time, though. If a project ever needs paid hosting, we'll talk about it before we build anything."
+      },
+      "timeline": {
+        "q": "How long does it take?",
+        "a": "From your form to a decision takes about 3–4 weeks: we review it, reach out, get on a call, and figure out if we can help. If we go ahead, a cohort builds it over about 3 months, and support continues after."
+      },
+      "ip": {
+        "q": "Who owns the code?",
+        "a": "You have full rights to use and change it. By default, we publish the code as open source so students can show their work. If that doesn't work for you, just tell us."
+      },
+      "age": {
+        "q": "How old do I have to be to join?",
+        "a": "You need to be in high school and at least 14. If you've just graduated, reach out anyway."
+      },
+      "experience": {
+        "q": "Do I need experience?",
+        "a": "Some, yes. You should have built something before, even something small. You don't need to know every tool we use. You'll learn along the way."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Free software for nonprofits, built by high school students.",
+    "contact": "Contact",
+    "social": "Elsewhere",
+    "legal": "Legal",
+    "privacy": "Privacy policy",
+    "copyright": "© {year} Byte Club. Made in Quebec.",
+    "notCharity": "Byte Club is not a registered charity."
+  },
+  "form": {
+    "required": "required",
+    "optional": "optional",
+    "consent": "I've read the <link>privacy policy</link> and agree to Byte Club storing this info to reply to me.",
+    "submit": "Send",
+    "submitting": "Sending…",
+    "honeypot": "Leave this field empty",
+    "successTitle": "Got it, thanks!",
+    "successBody": "Thank you for reaching out. We read every submission ourselves, so give us a few days. We'll reply by email in the language you used here.",
+    "backHome": "Back to the homepage",
+    "errorSummary": "A few things need fixing before we can send this.",
+    "errorGeneric": "Something went wrong on our end. Try again in a bit, or email us at {email}.",
+    "errorRateLimit": "That's a lot of submissions in a short time. Wait a few minutes and try again.",
+    "errors": {
+      "required": "This one's required.",
+      "email": "That doesn't look like an email address.",
+      "url": "That doesn't look like a link (start with https://).",
+      "age": "Enter an age between 14 and 20.",
+      "tooLong": "That's a bit long, try trimming it.",
+      "consent": "You need to agree to the privacy policy to send this.",
+      "skills": "Pick at least one."
+    }
+  },
+  "partner": {
+    "metaTitle": "Partner with us",
+    "metaDescription": "Tell Byte Club about a problem your nonprofit has. If we can help, a student team will build the solution for free.",
+    "eyebrow": "For nonprofits",
+    "title": "Tell us about your project",
+    "intro": "No need to be technical. Describe the problem in your own words, and share any other thoughts you have for us. We'll follow up with questions.",
+    "fields": {
+      "orgName": "Organization name",
+      "contactName": "Your name",
+      "email": "Email",
+      "website": "Website",
+      "websiteHint": "If you have one.",
+      "need": "What do you need?",
+      "needHint": "What's the problem, who deals with it, and how do you handle it today?",
+      "timeline": "Timeline",
+      "timelineOptions": {
+        "asap": "As soon as possible",
+        "3months": "Within 3 months",
+        "6months": "Within 6 months",
+        "flexible": "Flexible"
+      },
+      "choose": "Choose…"
+    }
+  },
+  "apply": {
+    "metaTitle": "Apply to a cohort",
+    "metaDescription": "Apply to join a Byte Club cohort and build real software for a nonprofit.",
+    "eyebrow": "For students",
+    "title": "Apply to a cohort",
+    "intro": "Takes about 10 minutes. Be yourself, we're not grading your grammar.",
+    "fields": {
+      "name": "Your name",
+      "email": "Email",
+      "age": "Age",
+      "school": "School",
+      "country": "Country",
+      "skills": "What do you do?",
+      "skillsHint": "Pick everything that applies, even if you're still learning.",
+      "skillOptions": {
+        "frontend": "Front-end",
+        "backend": "Back-end",
+        "mobile": "Mobile",
+        "design": "Design / UX",
+        "data": "Data",
+        "other": "Something else"
+      },
+      "links": "Links",
+      "linksHint": "GitHub, portfolio, a project you're proud of. One per line.",
+      "why": "Why do you want to join?",
+      "whyHint": "A few sentences is plenty."
+    },
+    "minorNote": "If you're under 18, it's a good idea to tell a parent or guardian you're applying. We'll ask for their OK before you join a cohort."
+  },
+  "privacy": {
+    "metaTitle": "Privacy policy",
+    "metaDescription": "How Byte Club collects, uses and protects personal information.",
+    "draft": "DRAFT — this policy is a placeholder and must be reviewed (ideally by someone who knows Law 25) before launch.",
+    "title": "Privacy policy",
+    "updated": "Last updated: {date}",
+    "sections": {
+      "responsible": {
+        "title": "Who's responsible",
+        "body": "The person responsible for protecting personal information at Byte Club is [NAME], [ROLE]. You can reach them at {email}."
+      },
+      "collect": {
+        "title": "What we collect",
+        "body": "Only what you type into our two forms: the nonprofit partner form (organization, name, email, website, project description, timeline) and the student application (name, email, age, school, country, skills, links, why you want to join). We also record the language you used and when you submitted. No cookies, no analytics, no tracking."
+      },
+      "why": {
+        "title": "Why we collect it",
+        "body": "To reply to you, to evaluate partner projects and student applications, and to organize cohorts. That's it. We don't sell it, rent it, or use it for advertising."
+      },
+      "where": {
+        "title": "Where it's stored",
+        "body": "Submissions are stored in a database hosted by Supabase in its Canada (Central) region. Only Byte Club organizers can read them. The website itself is hosted by Vercel."
+      },
+      "retention": {
+        "title": "How long we keep it",
+        "body": "[PLACEHOLDER: e.g. 24 months after your last contact with us], then we delete it. Applications that don't lead to a cohort are deleted after [X months]."
+      },
+      "minors": {
+        "title": "Minors",
+        "body": "Many of our applicants are under 18. We only accept applications from people aged 14 and over, collect the minimum we need, and ask for a parent or guardian's consent before a minor joins a cohort. We never publish a minor's information without consent."
+      },
+      "rights": {
+        "title": "Your rights",
+        "body": "You can ask to see, correct, or delete your personal information at any time, or withdraw your consent. Email {email} and we'll respond within 30 days. If you're not satisfied, you can file a complaint with the Commission d'accès à l'information du Québec."
+      },
+      "changes": {
+        "title": "Changes",
+        "body": "If we change this policy, we'll update the date at the top of this page."
+      }
+    }
+  },
+  "notFound": {
+    "title": "This page wandered off.",
+    "body": "The link might be broken, or the page never existed.",
+    "back": "Back to the homepage"
+  }
+}

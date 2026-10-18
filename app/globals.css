@@ -1,0 +1,227 @@
+@import "tailwindcss";
+
+/*
+ * Brand palette + fonts. Swap colors here and the whole site follows.
+ * Light is the default. Dark follows the system unless the theme toggle
+ * sets <html data-theme="light|dark">. No pure white anywhere, on purpose.
+ * Keep text/background pairs at WCAG AA (4.5:1) when you change them.
+ */
+:root {
+  /* Brand colors from the logo (public/logos/). Fixed in both themes. */
+  --brand-red: #ff0026;
+  --brand-purple: #9989ff;
+  --brand-yellow: #ffb632;
+  --brand-green: #9ee345;
+  --brand-pink: #f196e5;
+  --brand-ink: #0f0f0e; /* text on top of any brand color */
+
+  --bg: #fbf8f2;
+  --surface: #fefcf8;
+  --surface-alt: #f5f1e9;
+  --ink: #0f0f0e;
+  --muted: #57534e;
+  --line: #e6dfd2;
+  --accent: #5440e0; /* brand purple, deepened so text passes 4.5:1 */
+  --accent-hover: #4330c4;
+  --accent-ink: #fbf8f2; /* text on top of --accent */
+  --accent-soft: #ecebff;
+  --accent-soft-ink: #3a2c9e;
+  --danger: #b91c1c;
+  --danger-soft: #fef2f2;
+}
+
+/* Dark tokens appear twice (system dark + forced dark). Keep both in sync. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f0f0e;
+    --surface: #1a1a18;
+    --surface-alt: #141413;
+    --ink: #f5f1e9;
+    --muted: #a8a29e;
+    --line: #2e2c29;
+    --accent: #9989ff;
+    --accent-hover: #b4a9ff;
+    --accent-ink: #0f0f0e;
+    --accent-soft: #25213f;
+    --accent-soft-ink: #d6d0ff;
+    --danger: #fca5a5;
+    --danger-soft: #2a1414;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #0f0f0e;
+  --surface: #1a1a18;
+  --surface-alt: #141413;
+  --ink: #f5f1e9;
+  --muted: #a8a29e;
+  --line: #2e2c29;
+  --accent: #9989ff;
+  --accent-hover: #b4a9ff;
+  --accent-ink: #0f0f0e;
+  --accent-soft: #25213f;
+  --accent-soft-ink: #d6d0ff;
+  --danger: #fca5a5;
+  --danger-soft: #2a1414;
+}
+
+/* Tailwind's dark: follows the same rules as the tokens above. */
+@custom-variant dark {
+  &:where([data-theme="dark"], [data-theme="dark"] *) {
+    @slot;
+  }
+  @media (prefers-color-scheme: dark) {
+    &:where(:root:not([data-theme="light"]), :root:not([data-theme="light"]) *) {
+      @slot;
+    }
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-soft-ink: var(--accent-soft-ink);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-brand-red: var(--brand-red);
+  --color-brand-purple: var(--brand-purple);
+  --color-brand-yellow: var(--brand-yellow);
+  --color-brand-green: var(--brand-green);
+  --color-brand-pink: var(--brand-pink);
+  --color-brand-ink: var(--brand-ink);
+
+  /* Set by next/font in app/[locale]/layout.tsx */
+  --font-display: var(--font-display-face), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-body-face), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html[data-theme="light"] {
+    color-scheme: light;
+  }
+  html[data-theme="dark"] {
+    color-scheme: dark;
+  }
+  html {
+    scroll-behavior: smooth;
+    color-scheme: light dark;
+    -webkit-text-size-adjust: 100%;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+    hyphens: auto;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  /* Sticky nav shouldn't cover anchored section headings */
+  [id] {
+    scroll-margin-top: 5.5rem;
+  }
+  :focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  .container-page {
+    width: 100%;
+    max-width: 72rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 640px) {
+    .container-page {
+      padding-inline: 2rem;
+    }
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 3rem;
+    padding: 0.75rem 1.4rem;
+    border-radius: 999px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    transition:
+      background-color 150ms,
+      transform 150ms,
+      box-shadow 150ms;
+  }
+  .btn:hover {
+    transform: translateY(-1px);
+  }
+  .btn-primary {
+    background: var(--accent);
+    color: var(--accent-ink);
+    box-shadow: 0 3px 0 0 var(--ink);
+  }
+  .btn-primary:hover {
+    background: var(--accent-hover);
+  }
+  .btn-secondary {
+    background: var(--surface);
+    color: var(--ink);
+    border: 2px solid var(--ink);
+    box-shadow: 0 3px 0 0 var(--ink);
+  }
+  .btn-secondary:hover {
+    background: var(--accent-soft);
+  }
+  .eyebrow {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .card {
+    background: var(--surface);
+    border: 2px solid var(--line);
+    border-radius: 1.25rem;
+  }
+  .field-input {
+    width: 100%;
+    min-height: 2.875rem;
+    padding: 0.625rem 0.875rem;
+    border: 2px solid var(--line);
+    border-radius: 0.75rem;
+    background: var(--surface);
+    color: var(--ink);
+  }
+  .field-input:focus-visible {
+    outline-offset: 1px;
+    border-color: var(--accent);
+  }
+  .field-input[aria-invalid="true"] {
+    border-color: var(--danger);
+  }
+}

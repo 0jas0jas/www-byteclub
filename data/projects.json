@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "lucknow-animal-shelter",
+    "org": "[Shelter name], Lucknow",
+    "orgUrl": null,
+    "cohort": "2025",
+    "title": {
+      "fr": "Logistique pour un refuge pour animaux",
+      "en": "Logistics for an animal shelter"
+    },
+    "problem": {
+      "fr": "Le refuge suivait les animaux, les soins et les dons dans des cahiers et des groupes WhatsApp. Des infos se perdaient, et les bénévoles passaient leur temps à se demander qui avait nourri qui.",
+      "en": "The shelter tracked animals, treatments and donations in notebooks and WhatsApp groups. Things got lost, and volunteers spent a lot of time asking who'd fed whom."
+    },
+    "built": {
+      "fr": "Une application web simple, utilisable sur téléphone, pour suivre chaque animal, planifier les soins et gérer l'inventaire de nourriture et de médicaments.",
+      "en": "A simple, phone-friendly web app to track every animal, schedule care, and manage food and medicine inventory."
+    },
+    "outcome": {
+      "fr": "[À COMPLÉTER : ce qui a changé pour le refuge, en chiffres honnêtes si possible.]",
+      "en": "[PLACEHOLDER: what changed for the shelter, with honest numbers if you have them.]"
+    },
+    "stack": ["Next.js", "Supabase", "Tailwind"],
+    "images": [
+      {
+        "src": "/images/projects/lucknow-shelter-screenshot.jpg",
+        "alt": {
+          "fr": "Capture d'écran de l'application : la liste des animaux du refuge",
+          "en": "Screenshot of the app: the shelter's list of animals"
+        }
+      },
+      {
+        "src": "/images/projects/lucknow-shelter-photo.jpg",
+        "alt": {
+          "fr": "Photo des bénévoles du refuge qui utilisent l'application",
+          "en": "Photo of shelter volunteers using the app"
+        }
+      }
+    ],
+    "quote": {
+      "text": {
+        "fr": "[Citation facultative du refuge. Supprimez le bloc « quote » s'il n'y en a pas.]",
+        "en": "[Optional quote from the shelter. Delete the \"quote\" block if you don't have one.]"
+      },
+      "author": "[Name], [Role]"
+    }
+  }
+]

@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "title": "Byte Club — Des logiciels gratuits pour les organismes, faits par des élèves du secondaire",
+    "description": "Byte Club jumelle des organismes sans but lucratif à des équipes d'élèves du secondaire qui construisent gratuitement des solutions à de vrais problèmes. On s'occupe de tout le reste."
+  },
+  "nav": {
+    "skip": "Aller au contenu",
+    "home": "Byte Club, accueil",
+    "main": "Principale",
+    "menuOpen": "Menu",
+    "menuClose": "Fermer le menu",
+    "links": {
+      "how": "Comment ça marche",
+      "nonprofits": "Organismes",
+      "students": "Élèves",
+      "team": "Équipe",
+      "faq": "FAQ"
+    }
+  },
+  "locale": {
+    "label": "Langue",
+    "switchTo": "Switch to English",
+    "fr": "FR",
+    "en": "EN"
+  },
+  "theme": {
+    "label": "Thème",
+    "system": "Utiliser le thème du système",
+    "light": "Thème clair",
+    "dark": "Thème sombre"
+  },
+  "hero": {
+    "eyebrow": "Byte Club · Du Québec vers partout",
+    "title": "Des logiciels gratuits pour les organismes, faits par des élèves du secondaire.",
+    "subtitle": "Byte Club est un programme par cohortes qui jumelle des élèves du secondaire à des organismes sans but lucratif. Les élèves ont un vrai impact sur des projets qui comptent. Les organismes obtiennent du travail qualifié gratuitement. On s'occupe des deux côtés et on s'assure que tout se passe bien pour tout le monde.",
+    "ctaNonprofit": "Je suis un organisme",
+    "ctaStudent": "Je suis un·e élève",
+    "imageAlt": "Des élèves réunis autour d'un tableau blanc, en train d'échanger des idées"
+  },
+  "how": {
+    "eyebrow": "Comment ça marche",
+    "title": "Quatre étapes, pas de mystère",
+    "intro": "On n'est pas un système dans lequel vous devez entrer. On s'adapte à vos besoins. Entre votre formulaire et notre décision, comptez environ 3 à 4 semaines.",
+    "steps": {
+      "form": {
+        "title": "Vous remplissez un formulaire",
+        "body": "Décrivez votre problème dans vos mots, et partagez toute autre idée que vous avez pour nous. Aucune connaissance techno requise."
+      },
+      "call": {
+        "title": "On s'appelle",
+        "body": "On lit chaque formulaire nous-mêmes, puis on vous contacte pour un appel afin de bien comprendre votre organisme et vos besoins."
+      },
+      "decide": {
+        "title": "On décide si on peut aider",
+        "body": "On examine chaque organisme au cas par cas et on conçoit un projet autour de vos besoins. Si on ne peut pas aider, on vous le dit honnêtement."
+      },
+      "build": {
+        "title": "Une équipe d'élèves le construit",
+        "body": "Une petite équipe d'élèves construit la solution avec vous, et on reste en lien avec votre organisme pour continuer à vous aider après."
+      }
+    }
+  },
+  "nonprofits": {
+    "eyebrow": "Pour les organismes",
+    "title": "On veut vous aider à aider le monde",
+    "intro": "Le travail de votre organisme compte, et ça nous tient à cœur. Tout ce qu'on veut, c'est vous aider à régler vos problèmes, tout en donnant aux élèves une vraie expérience.",
+    "items": {
+      "get": {
+        "title": "Comment ça vous aide",
+        "body": "Une solution pensée pour la façon dont votre équipe travaille vraiment, faite par des gens qui tiennent à ce qu'elle fonctionne. Vous recevez le code et une documentation en langage clair."
+      },
+      "cost": {
+        "title": "Ce que ça coûte",
+        "body": "Ça ne vous coûtera pas un sou. Par contre, ça va vous demander pas mal de temps. On en a besoin pour bien comprendre votre problème, rester en lien avec votre organisme et continuer à vous aider."
+      },
+      "need": {
+        "title": "Ce qu'on attend de vous",
+        "body": "Pour commencer, un formulaire. Ensuite, votre temps : une personne qui peut répondre à nos questions et nous dire franchement quand quelque chose cloche."
+      },
+      "after": {
+        "title": "Après la remise",
+        "body": "On ne construit pas quelque chose pour disparaître ensuite. On forme votre équipe, on reste là pour les correctifs, et on s'assure que vous n'êtes jamais prisonniers. C'est votre logiciel."
+      }
+    },
+    "fitTitle": "Est-ce que ça vaut votre temps?",
+    "fitIntro": "Honnêtement, seulement si votre organisme a un vrai problème et que vous êtes à l'aise avec :",
+    "fit": {
+      "slow": "Des choses qui avancent un peu moins vite qu'avec une agence payée",
+      "mistakes": "Quelques erreurs en chemin",
+      "students": "Travailler avec des élèves qui apprennent encore"
+    },
+    "cta": "Parlez-nous de votre projet"
+  },
+  "students": {
+    "eyebrow": "Pour les élèves",
+    "title": "Fais un travail qui compte, pour des gens qui en ont besoin",
+    "intro": "Byte Club te jumelle à un organisme qui a un vrai problème. Tu travailles en petite équipe pour le régler, et ce que tu construis est vraiment utilisé.",
+    "items": {
+      "do": {
+        "title": "Ce que tu vas faire",
+        "body": "Rejoindre une petite équipe, parler avec un vrai organisme, comprendre son problème et construire quelque chose qui le règle."
+      },
+      "learn": {
+        "title": "Ce que ça t'apporte",
+        "body": "Tu vas apprendre ce que l'école ne montre pas : Git, la révision de code, le travail avec un vrai organisme, et comment finir ce que tu commences."
+      },
+      "time": {
+        "title": "Est-ce que ça entre dans ton horaire?",
+        "body": "Environ 4 à 6 heures par semaine pendant une cohorte (à peu près 3 mois). Tu as une vie scolaire, nous aussi. On s'organise autour des examens."
+      },
+      "resume": {
+        "title": "Ce que tu en retires",
+        "body": "Un vrai projet pour un vrai organisme, une référence d'un·e mentor, et du travail que tu peux montrer pour vrai."
+      }
+    },
+    "fitTitle": "Suis-je assez bon·ne?",
+    "fitIntro": "Pas besoin d'être expert·e. Devs et designers d'où que tu sois sont les bienvenu·e·s. Il te faut seulement :",
+    "fit": {
+      "age": "Être au secondaire et avoir au moins 14 ans",
+      "built": "Avoir déjà construit quelque chose, même de petit",
+      "reliable": "De la curiosité, et être là quand tu dis que tu vas l'être"
+    },
+    "cta": "Postuler à une cohorte",
+    "discord": "Rejoindre le Discord"
+  },
+  "status": {
+    "eyebrow": "Qui on est",
+    "title": "Oui, c'est pour vrai. Voici la version honnête.",
+    "body": "On est un groupe d'étudiant·e·s du cégep, de l'université et du secondaire, et tout le monde dans l'équipe a déjà construit de vrais projets. Notre première cohorte en 2025 ne s'est pas passée comme on voulait, alors on a pris ce qu'on a appris et on a rebâti la façon dont Byte Club fonctionne.",
+    "doneTitle": "Fait jusqu'ici",
+    "done": {
+      "one": "Fait notre première cohorte en 2025, et beaucoup appris de ce qui n'a pas marché",
+      "two": "Travaillé sur un outil logistique pour un refuge pour animaux à Lucknow, en Inde",
+      "three": "Démarré un Discord où les élèves s'entraident"
+    },
+    "nextTitle": "Ce vers quoi on s'en va",
+    "next": {
+      "one": "Faire notre prochaine cohorte avec le système qu'on a rebâti",
+      "two": "Travailler avec plus d'organismes, surtout ici au Québec",
+      "three": "Agrandir notre équipe de mentors"
+    }
+  },
+  "team": {
+    "eyebrow": "Équipe",
+    "title": "Les gens derrière tout ça",
+    "intro": "On est des étudiant·e·s du cégep, de l'université et du secondaire. Tout le monde ici a déjà construit des choses, et on est là parce qu'on veut faire une vraie différence.",
+    "link": "Profil de {name}"
+  },
+  "involved": {
+    "eyebrow": "S'impliquer",
+    "title": "Pas élève ni organisme? Vous pouvez quand même aider.",
+    "items": {
+      "mentors": {
+        "title": "Mentors",
+        "body": "Des devs et designers qui peuvent réviser le travail des élèves ou donner leur avis quelques heures par mois."
+      },
+      "sponsors": {
+        "title": "Commanditaires",
+        "body": "Des entreprises qui peuvent couvrir des frais comme l'hébergement, les noms de domaine ou les licences, pour que les organismes n'aient jamais à payer."
+      },
+      "partners": {
+        "title": "Partenaires",
+        "body": "Des écoles, des clubs et des organisations qui connaissent des élèves ou des organismes qu'on devrait rencontrer."
+      }
+    },
+    "cta": "Nous écrire"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Les questions que vous vous posez peut-être",
+    "items": {
+      "capable": {
+        "q": "Est-ce que des élèves sont vraiment capables de faire ça?",
+        "a": "On a encore beaucoup à apprendre, et on est les premiers à le dire. On est des étudiant·e·s avec une vie scolaire bien remplie. Mais tout le monde dans l'équipe a déjà construit de vrais projets, et on prend seulement des projets qu'une équipe d'élèves peut réalistement livrer. On n'est pas là pour garnir notre CV et passer à autre chose. On est là parce qu'on veut faire une vraie différence, et on va continuer à s'améliorer."
+      },
+      "wrong": {
+        "q": "Qu'est-ce qui arrive si quelque chose tourne mal?",
+        "a": "Ça peut arriver. On garde les projets petits pour l'éviter, et si quelque chose glisse, on vous le dit tout de suite et la cohorte suivante peut prendre le relais. Vous saurez toujours où en sont les choses."
+      },
+      "disappear": {
+        "q": "Et si vous disparaissez comme tout le monde?",
+        "a": "On comprend, vous vous êtes sûrement déjà fait avoir. Rester en lien avec votre organisme, c'est justement le cœur de notre façon de fonctionner. Et même dans le pire des cas, vous n'êtes pas coincés : vous avez tous les droits sur le code et une documentation en langage clair, alors n'importe qui peut reprendre le travail."
+      },
+      "cost": {
+        "q": "Est-ce que ça coûte quelque chose?",
+        "a": "Pas un sou, ni pour les organismes ni pour les élèves. Par contre, ça demande du temps aux organismes. Si un projet a besoin d'un hébergement payant, on en parle avant de construire quoi que ce soit."
+      },
+      "timeline": {
+        "q": "Combien de temps ça prend?",
+        "a": "Entre votre formulaire et notre décision, comptez environ 3 à 4 semaines : on le lit, on vous contacte, on s'appelle et on voit si on peut aider. Si on va de l'avant, une cohorte le construit sur environ 3 mois, et le soutien continue après."
+      },
+      "ip": {
+        "q": "À qui appartient le code?",
+        "a": "Vous avez tous les droits pour l'utiliser et le modifier. Par défaut, on publie le code en source ouverte pour que les élèves puissent montrer leur travail. Si ça ne vous convient pas, dites-le-nous."
+      },
+      "age": {
+        "q": "Quel âge faut-il avoir pour participer?",
+        "a": "Il faut être au secondaire et avoir au moins 14 ans. Si tu viens de finir ton secondaire, écris-nous quand même."
+      },
+      "experience": {
+        "q": "Faut-il de l'expérience?",
+        "a": "Un peu, oui. Tu devrais avoir déjà construit quelque chose, même de petit. Pas besoin de connaître tous les outils qu'on utilise : tu vas apprendre en chemin."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Des logiciels gratuits pour les organismes, faits par des élèves du secondaire.",
+    "contact": "Contact",
+    "social": "Ailleurs",
+    "legal": "Légal",
+    "privacy": "Politique de confidentialité",
+    "copyright": "© {year} Byte Club. Fait au Québec.",
+    "notCharity": "Byte Club n'est pas un organisme de bienfaisance enregistré."
+  },
+  "form": {
+    "required": "obligatoire",
+    "optional": "facultatif",
+    "consent": "J'ai lu la <link>politique de confidentialité</link> et j'accepte que Byte Club conserve ces informations pour me répondre.",
+    "submit": "Envoyer",
+    "submitting": "Envoi en cours…",
+    "honeypot": "Laissez ce champ vide",
+    "successTitle": "Bien reçu, merci!",
+    "successBody": "Merci de nous avoir écrit. On lit tout nous-mêmes, alors laissez-nous quelques jours. On vous répondra par courriel dans la langue utilisée ici.",
+    "backHome": "Retour à l'accueil",
+    "errorSummary": "Quelques champs sont à corriger avant l'envoi.",
+    "errorGeneric": "Quelque chose a planté de notre côté. Réessayez dans un moment, ou écrivez-nous à {email}.",
+    "errorRateLimit": "Ça fait beaucoup d'envois en peu de temps. Attendez quelques minutes et réessayez.",
+    "errors": {
+      "required": "Ce champ est obligatoire.",
+      "email": "Ça ne ressemble pas à une adresse courriel.",
+      "url": "Ça ne ressemble pas à un lien (commencez par https://).",
+      "age": "Entrez un âge entre 14 et 20 ans.",
+      "tooLong": "C'est un peu long, essayez de raccourcir.",
+      "consent": "Il faut accepter la politique de confidentialité pour envoyer le formulaire.",
+      "skills": "Choisissez-en au moins un."
+    }
+  },
+  "partner": {
+    "metaTitle": "Devenir partenaire",
+    "metaDescription": "Parlez à Byte Club d'un problème que vit votre organisme. Si on peut aider, une équipe d'élèves construira la solution gratuitement.",
+    "eyebrow": "Pour les organismes",
+    "title": "Parlez-nous de votre projet",
+    "intro": "Pas besoin d'être techno. Décrivez le problème dans vos mots, et partagez toute autre idée que vous avez pour nous. On vous reviendra avec des questions.",
+    "fields": {
+      "orgName": "Nom de l'organisme",
+      "contactName": "Votre nom",
+      "email": "Courriel",
+      "website": "Site web",
+      "websiteHint": "Si vous en avez un.",
+      "need": "De quoi avez-vous besoin?",
+      "needHint": "Quel est le problème, qui le vit, et comment vous le gérez aujourd'hui?",
+      "timeline": "Échéancier",
+      "timelineOptions": {
+        "asap": "Le plus tôt possible",
+        "3months": "D'ici 3 mois",
+        "6months": "D'ici 6 mois",
+        "flexible": "Flexible"
+      },
+      "choose": "Choisir…"
+    }
+  },
+  "apply": {
+    "metaTitle": "Postuler à une cohorte",
+    "metaDescription": "Postule pour rejoindre une cohorte Byte Club et construire un vrai logiciel pour un organisme.",
+    "eyebrow": "Pour les élèves",
+    "title": "Postuler à une cohorte",
+    "intro": "Ça prend environ 10 minutes. Sois toi-même, on ne corrige pas ton orthographe.",
+    "fields": {
+      "name": "Ton nom",
+      "email": "Courriel",
+      "age": "Âge",
+      "school": "École",
+      "country": "Pays",
+      "skills": "Qu'est-ce que tu fais?",
+      "skillsHint": "Coche tout ce qui s'applique, même si tu es encore en train d'apprendre.",
+      "skillOptions": {
+        "frontend": "Front-end",
+        "backend": "Back-end",
+        "mobile": "Mobile",
+        "design": "Design / UX",
+        "data": "Données",
+        "other": "Autre chose"
+      },
+      "links": "Liens",
+      "linksHint": "GitHub, portfolio, un projet dont tu es fier·ère. Un par ligne.",
+      "why": "Pourquoi veux-tu participer?",
+      "whyHint": "Quelques phrases, c'est amplement."
+    },
+    "minorNote": "Si tu as moins de 18 ans, c'est une bonne idée d'en parler à un parent ou tuteur. On lui demandera son accord avant que tu rejoignes une cohorte."
+  },
+  "privacy": {
+    "metaTitle": "Politique de confidentialité",
+    "metaDescription": "Comment Byte Club recueille, utilise et protège les renseignements personnels.",
+    "draft": "ÉBAUCHE — cette politique est temporaire et doit être révisée (idéalement par quelqu'un qui connaît la Loi 25) avant la mise en ligne.",
+    "title": "Politique de confidentialité",
+    "updated": "Dernière mise à jour : {date}",
+    "sections": {
+      "responsible": {
+        "title": "Qui est responsable",
+        "body": "La personne responsable de la protection des renseignements personnels chez Byte Club est [NOM], [RÔLE]. Vous pouvez la joindre à {email}."
+      },
+      "collect": {
+        "title": "Ce qu'on recueille",
+        "body": "Seulement ce que vous écrivez dans nos deux formulaires : le formulaire pour les organismes (organisme, nom, courriel, site web, description du projet, échéancier) et la candidature des élèves (nom, courriel, âge, école, pays, compétences, liens, motivation). On note aussi la langue utilisée et la date d'envoi. Aucun témoin (cookie), aucune analyse, aucun pistage."
+      },
+      "why": {
+        "title": "Pourquoi on le recueille",
+        "body": "Pour vous répondre, évaluer les projets des organismes et les candidatures des élèves, et organiser les cohortes. C'est tout. On ne vend pas, ne loue pas et n'utilise pas vos renseignements à des fins publicitaires."
+      },
+      "where": {
+        "title": "Où c'est conservé",
+        "body": "Les soumissions sont conservées dans une base de données hébergée par Supabase dans sa région Canada (Centre). Seuls les organisateurs de Byte Club peuvent les consulter. Le site lui-même est hébergé par Vercel."
+      },
+      "retention": {
+        "title": "Combien de temps on le garde",
+        "body": "[À COMPLÉTER : p. ex. 24 mois après votre dernier contact avec nous], puis on le supprime. Les candidatures qui ne mènent pas à une cohorte sont supprimées après [X mois]."
+      },
+      "minors": {
+        "title": "Personnes mineures",
+        "body": "Beaucoup de nos candidat·e·s ont moins de 18 ans. On accepte seulement les candidatures des personnes de 14 ans et plus, on recueille le strict minimum, et on demande le consentement d'un parent ou tuteur avant qu'une personne mineure rejoigne une cohorte. On ne publie jamais les renseignements d'une personne mineure sans consentement."
+      },
+      "rights": {
+        "title": "Vos droits",
+        "body": "Vous pouvez en tout temps demander à consulter, corriger ou supprimer vos renseignements personnels, ou retirer votre consentement. Écrivez à {email} et on vous répondra dans un délai de 30 jours. Si vous n'êtes pas satisfait·e, vous pouvez porter plainte auprès de la Commission d'accès à l'information du Québec."
+      },
+      "changes": {
+        "title": "Modifications",
+        "body": "Si on modifie cette politique, on mettra à jour la date en haut de la page."
+      }
+    }
+  },
+  "notFound": {
+    "title": "Cette page s'est perdue.",
+    "body": "Le lien est peut-être brisé, ou la page n'a jamais existé.",
+    "back": "Retour à l'accueil"
+  }
+}
