@@ -6,7 +6,6 @@ import { Logo } from "./Logo";
 
 const socials = [
   { key: "discord", label: "Discord", href: siteConfig.links.discord },
-  { key: "instagram", label: "Instagram", href: siteConfig.links.instagram },
   { key: "linkedin", label: "LinkedIn", href: siteConfig.links.linkedin },
   { key: "github", label: "GitHub", href: siteConfig.links.github },
 ] as const;

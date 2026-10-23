@@ -6,7 +6,7 @@ import { siteConfig } from "@/config/site";
 import { alternatesFor } from "@/lib/metadata";
 
 // Bump this whenever the policy changes.
-const LAST_UPDATED = new Date("2026-10-02");
+const LAST_UPDATED = new Date("2026-10-23");
 
 const SECTIONS = [
   "responsible",
@@ -15,6 +15,7 @@ const SECTIONS = [
   "where",
   "retention",
   "minors",
+  "security",
   "rights",
   "changes",
 ] as const;
@@ -26,8 +27,6 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/privacy"
     title: t("metaTitle"),
     description: t("metaDescription"),
     alternates: alternatesFor(locale, "/privacy"),
-    // TODO: remove once the policy has been reviewed.
-    robots: { index: false },
   };
 }
 
@@ -38,12 +37,7 @@ export default function PrivacyPage({ params }: PageProps<"/[locale]/privacy">) 
 
   return (
     <article className="container-page max-w-3xl py-14 sm:py-20">
-      {/* REVIEW BEFORE LAUNCH: delete this banner once the policy is final. */}
-      <p role="note" className="rounded-xl border-2 border-dashed border-danger bg-danger-soft p-4 font-bold text-danger">
-        {t("draft")}
-      </p>
-
-      <h1 className="mt-10 text-4xl font-extrabold tracking-tight sm:text-5xl">{t("title")}</h1>
+      <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">{t("title")}</h1>
       <p className="mt-3 text-muted">
         {t("updated", { date: format.dateTime(LAST_UPDATED, { dateStyle: "long", timeZone: "UTC" }) })}
       </p>

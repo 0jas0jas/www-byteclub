@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { siteConfig } from "@/config/site";
 import { Link } from "@/i18n/navigation";
 
 export function Hero() {
@@ -17,9 +18,9 @@ export function Hero() {
           </h1>
           <p className="mt-6 max-w-xl text-lg text-muted sm:text-xl">{t("subtitle")}</p>
           <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
-            <Link href="/partner" className="btn btn-primary">
+            <a href={siteConfig.partnerFormUrl} className="btn btn-primary">
               {t("ctaNonprofit")} <span aria-hidden="true">→</span>
-            </Link>
+            </a>
             <Link href="/apply" className="btn btn-secondary">
               {t("ctaStudent")} <span aria-hidden="true">→</span>
             </Link>

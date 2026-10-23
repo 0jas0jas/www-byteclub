@@ -95,7 +95,7 @@ export default async function LocaleLayout({
 
           <Script
             defer
-            data-domain="byteclub.example"
+            data-domain="www-byteclub.vercel.app"
             src="https://plausible.io/js/script.js"
             strategy="afterInteractive"
           />

@@ -1,6 +1,6 @@
 # Byte Club website
 
-Single-page bilingual (FR/EN) marketing site for Byte Club, a cohort-based program that connects high school students with nonprofits. There are also two Supabase-backed forms (`/partner` for nonprofits, `/apply` for students) and a privacy policy. The README covers setup, Supabase and deploy steps. This file covers what isn't obvious from the code.
+Single-page bilingual (FR/EN) marketing site for Byte Club, a cohort-based program that connects high school students with nonprofits. Nonprofits sign up through an external Airtable form (`siteConfig.partnerFormUrl`). Students use the Supabase-backed `/apply` form. There's also a privacy policy. The old Supabase `/partner` page still exists but nothing links to it, and `next.config.ts` redirects it to the Airtable form. The README covers setup, Supabase and deploy steps. This file covers what isn't obvious from the code.
 
 ## Commands
 
@@ -16,7 +16,7 @@ Next.js 16 (App Router, `proxy.ts` instead of middleware) · TypeScript · Tailw
 ## Copy and i18n
 
 - All user-facing text lives in `messages/en.json` and `messages/fr.json`. **Both files must have identical keys.** TypeScript checks keys against `en.json` only, so a key missing from `fr.json` won't be caught. Check parity yourself after edits.
-- French is the default locale. Any copy change needs a French version too. French has been machine-written so far and needs a native-speaker review.
+- French is the default locale. Any copy change needs a French version too. French was machine-written and has since been reviewed by the team.
 - Section components render lists from `const ITEMS = [...] as const` arrays that must match the message keys. If you add or remove a key, update that array.
 - Edit JSON with a script (`json.load` → modify → `json.dump(..., ensure_ascii=False, indent=2)` + trailing newline). That keeps the formatting stable.
 
@@ -29,7 +29,7 @@ Next.js 16 (App Router, `proxy.ts` instead of middleware) · TypeScript · Tailw
   - It's only worth it if they're okay with things being slow, a few mistakes, and working with students.
   - The 2025 first cohort was unsuccessful, and the system has been rebuilt since.
 - Key facts: the team is college + high school students. Form-to-decision takes about 3–4 weeks (form → call → decide → build). A cohort runs about 3 months.
-- Don't invent new promises or facts. The FAQ answers to "what if something goes wrong?" and "what if you disappear?" were written by Claude, and the team still needs to confirm them.
+- Don't invent new promises or facts.
 
 ## Page structure
 
@@ -63,8 +63,7 @@ Next.js 16 (App Router, `proxy.ts` instead of middleware) · TypeScript · Tailw
 
 ## Still placeholder / before launch
 
-- Contact email and social links in `config/site.ts`
-- Privacy policy (`privacy.*` keys) needs a Quebec Law 25 review. Remove the DRAFT banner and `robots: noindex` once that's done.
-- "Who we are" still lists the Lucknow shelter project under "Done so far." Confirm with the team.
+- GitHub link in `config/site.ts` is unconfirmed. There's no Instagram yet, so it's been removed from the footer. The contact and privacy email are set to sneakout@pm.me. The production URL is https://www-byteclub.vercel.app, which is also the fallback for `NEXT_PUBLIC_SITE_URL`.
+- The Airtable partner form needs a link to the privacy policy (the user is handling this).
 - Consent from everyone shown in the hero photo (some may be minors)
 - Unused placeholder files: `public/images/team/*.jpg`, `public/images/projects/`, `data/projects.json`

@@ -291,41 +291,44 @@
   "privacy": {
     "metaTitle": "Privacy policy",
     "metaDescription": "How Byte Club collects, uses and protects personal information.",
-    "draft": "DRAFT — this policy is a placeholder and must be reviewed (ideally by someone who knows Law 25) before launch.",
     "title": "Privacy policy",
     "updated": "Last updated: {date}",
     "sections": {
       "responsible": {
         "title": "Who's responsible",
-        "body": "The person responsible for protecting personal information at Byte Club is [NAME], [ROLE]. You can reach them at {email}."
+        "body": "Byte Club is run by a team of student volunteers in Quebec. One member of our organizing team is our person in charge of the protection of personal information. You can reach them at {email} for any question about this policy or your information."
       },
       "collect": {
         "title": "What we collect",
-        "body": "Only what you type into our two forms: the nonprofit partner form (organization, name, email, website, project description, timeline) and the student application (name, email, age, school, country, skills, links, why you want to join). We also record the language you used and when you submitted. No cookies, no analytics, no tracking."
+        "body": "Only what you give us. Nonprofits fill out our partner form, hosted on Airtable: your organization, your name, your email and what you tell us about your project. Students fill out the application on this site: name, email, age, school, country, skills, links and why you want to join. We also record the language you used and when you submitted. If you email us or get on a call with us, we keep what you share there too. This website uses no cookies, no analytics and no tracking."
       },
       "why": {
         "title": "Why we collect it",
-        "body": "To reply to you, to evaluate partner projects and student applications, and to organize cohorts. That's it. We don't sell it, rent it, or use it for advertising."
+        "body": "To reply to you, to decide whether we can take on a nonprofit's project, to review student applications, and to run cohorts. That's it. We only use your information for the reason you gave it to us. We don't sell it, rent it, or use it for advertising."
       },
       "where": {
-        "title": "Where it's stored",
-        "body": "Submissions are stored in a database hosted by Supabase in its Canada (Central) region. Only Byte Club organizers can read them. The website itself is hosted by Vercel."
+        "title": "Where it's stored and who can see it",
+        "body": "Only Byte Club organizers can read your information. We use a few services to store it: student applications are stored with Supabase in its Canada (Central) region, nonprofit forms are stored with Airtable, and the website is hosted by Vercel. Airtable and Vercel are based in the United States, so some information may be stored outside Quebec. We picked these services because they protect data seriously, and they're only allowed to store it for us, not use it for themselves. When you open the nonprofit form, you're on Airtable's site, so Airtable's own privacy policy also applies there."
       },
       "retention": {
         "title": "How long we keep it",
-        "body": "[PLACEHOLDER: e.g. 24 months after your last contact with us], then we delete it. Applications that don't lead to a cohort are deleted after [X months]."
+        "body": "If your application or project doesn't go ahead, we delete your information within 12 months. If you take part in a cohort or a project, we keep it while we're working together and for up to 24 months after, so we can keep supporting the project. After that, we delete it, unless you ask us to keep in touch."
       },
       "minors": {
         "title": "Minors",
-        "body": "Many of our applicants are under 18. We only accept applications from people aged 14 and over, collect the minimum we need, and ask for a parent or guardian's consent before a minor joins a cohort. We never publish a minor's information without consent."
+        "body": "Many of our applicants are under 18. We only accept applications from people aged 14 and over, collect the minimum we need, and ask for a parent or guardian's consent before a minor joins a cohort. We never publish a minor's information or photo without consent."
+      },
+      "security": {
+        "title": "Keeping it safe",
+        "body": "Access is limited to the organizers who need it, with individual accounts. If something ever goes wrong and your information is exposed in a way that could seriously harm you, we'll tell you and the Commission d'accès à l'information as quickly as we can, and do what we can to limit the damage."
       },
       "rights": {
         "title": "Your rights",
-        "body": "You can ask to see, correct, or delete your personal information at any time, or withdraw your consent. Email {email} and we'll respond within 30 days. If you're not satisfied, you can file a complaint with the Commission d'accès à l'information du Québec."
+        "body": "You can ask to see your personal information, get a copy of it, correct it, or have it deleted at any time. You can also withdraw your consent. Email {email} and we'll respond within 30 days. If you're not satisfied with our answer, you can file a complaint with the Commission d'accès à l'information du Québec."
       },
       "changes": {
         "title": "Changes",
-        "body": "If we change this policy, we'll update the date at the top of this page."
+        "body": "If we change this policy, we'll update the date at the top of this page. If the change is important, we'll also let the people we're working with know."
       }
     }
   },

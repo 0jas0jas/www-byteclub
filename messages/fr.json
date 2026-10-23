@@ -291,41 +291,44 @@
   "privacy": {
     "metaTitle": "Politique de confidentialité",
     "metaDescription": "Comment Byte Club recueille, utilise et protège les renseignements personnels.",
-    "draft": "ÉBAUCHE — cette politique est temporaire et doit être révisée (idéalement par quelqu'un qui connaît la Loi 25) avant la mise en ligne.",
     "title": "Politique de confidentialité",
     "updated": "Dernière mise à jour : {date}",
     "sections": {
       "responsible": {
         "title": "Qui est responsable",
-        "body": "La personne responsable de la protection des renseignements personnels chez Byte Club est [NOM], [RÔLE]. Vous pouvez la joindre à {email}."
+        "body": "Byte Club est géré par une équipe d'étudiant·e·s bénévoles au Québec. Une personne de notre équipe d'organisation est responsable de la protection des renseignements personnels. Vous pouvez la joindre à {email} pour toute question sur cette politique ou sur vos renseignements."
       },
       "collect": {
         "title": "Ce qu'on recueille",
-        "body": "Seulement ce que vous écrivez dans nos deux formulaires : le formulaire pour les organismes (organisme, nom, courriel, site web, description du projet, échéancier) et la candidature des élèves (nom, courriel, âge, école, pays, compétences, liens, motivation). On note aussi la langue utilisée et la date d'envoi. Aucun témoin (cookie), aucune analyse, aucun pistage."
+        "body": "Seulement ce que vous nous donnez. Les organismes remplissent notre formulaire partenaire, hébergé sur Airtable : votre organisme, votre nom, votre courriel et ce que vous nous dites de votre projet. Les élèves remplissent la candidature sur ce site : nom, courriel, âge, école, pays, compétences, liens et motivation. On note aussi la langue utilisée et la date d'envoi. Si vous nous écrivez ou qu'on s'appelle, on garde aussi ce que vous y partagez. Ce site n'utilise aucun témoin (cookie), aucune analyse et aucun pistage."
       },
       "why": {
         "title": "Pourquoi on le recueille",
-        "body": "Pour vous répondre, évaluer les projets des organismes et les candidatures des élèves, et organiser les cohortes. C'est tout. On ne vend pas, ne loue pas et n'utilise pas vos renseignements à des fins publicitaires."
+        "body": "Pour vous répondre, décider si on peut prendre en charge le projet d'un organisme, évaluer les candidatures des élèves et organiser les cohortes. C'est tout. On utilise vos renseignements seulement pour la raison pour laquelle vous nous les avez donnés. On ne les vend pas, ne les loue pas et ne les utilise pas à des fins publicitaires."
       },
       "where": {
-        "title": "Où c'est conservé",
-        "body": "Les soumissions sont conservées dans une base de données hébergée par Supabase dans sa région Canada (Centre). Seuls les organisateurs de Byte Club peuvent les consulter. Le site lui-même est hébergé par Vercel."
+        "title": "Où c'est conservé et qui y a accès",
+        "body": "Seuls les organisateurs de Byte Club peuvent consulter vos renseignements. On utilise quelques services pour les conserver : les candidatures des élèves sont conservées chez Supabase dans sa région Canada (Centre), les formulaires des organismes sont conservés chez Airtable, et le site est hébergé par Vercel. Airtable et Vercel sont basés aux États-Unis, donc certains renseignements peuvent être conservés à l'extérieur du Québec. On a choisi ces services parce qu'ils protègent sérieusement les données, et ils ont seulement le droit de les conserver pour nous, pas de les utiliser pour eux-mêmes. Quand vous ouvrez le formulaire des organismes, vous êtes sur le site d'Airtable, donc la politique de confidentialité d'Airtable s'applique aussi."
       },
       "retention": {
         "title": "Combien de temps on le garde",
-        "body": "[À COMPLÉTER : p. ex. 24 mois après votre dernier contact avec nous], puis on le supprime. Les candidatures qui ne mènent pas à une cohorte sont supprimées après [X mois]."
+        "body": "Si votre candidature ou votre projet ne va pas de l'avant, on supprime vos renseignements dans un délai de 12 mois. Si vous participez à une cohorte ou à un projet, on les garde pendant notre collaboration et jusqu'à 24 mois après, pour pouvoir continuer à soutenir le projet. Ensuite, on les supprime, sauf si vous nous demandez de rester en contact."
       },
       "minors": {
         "title": "Personnes mineures",
-        "body": "Beaucoup de nos candidat·e·s ont moins de 18 ans. On accepte seulement les candidatures des personnes de 14 ans et plus, on recueille le strict minimum, et on demande le consentement d'un parent ou tuteur avant qu'une personne mineure rejoigne une cohorte. On ne publie jamais les renseignements d'une personne mineure sans consentement."
+        "body": "Beaucoup de nos candidat·e·s ont moins de 18 ans. On accepte seulement les candidatures des personnes de 14 ans et plus, on recueille le strict minimum, et on demande le consentement d'un parent ou tuteur avant qu'une personne mineure rejoigne une cohorte. On ne publie jamais les renseignements ou la photo d'une personne mineure sans consentement."
+      },
+      "security": {
+        "title": "Garder vos renseignements en sécurité",
+        "body": "L'accès est limité aux organisateurs qui en ont besoin, avec des comptes individuels. Si un jour quelque chose tourne mal et que vos renseignements sont exposés d'une façon qui pourrait vous causer un préjudice sérieux, on vous en informera, ainsi que la Commission d'accès à l'information, le plus rapidement possible, et on fera ce qu'on peut pour limiter les dégâts."
       },
       "rights": {
         "title": "Vos droits",
-        "body": "Vous pouvez en tout temps demander à consulter, corriger ou supprimer vos renseignements personnels, ou retirer votre consentement. Écrivez à {email} et on vous répondra dans un délai de 30 jours. Si vous n'êtes pas satisfait·e, vous pouvez porter plainte auprès de la Commission d'accès à l'information du Québec."
+        "body": "Vous pouvez en tout temps demander à consulter vos renseignements personnels, en obtenir une copie, les corriger ou les faire supprimer. Vous pouvez aussi retirer votre consentement. Écrivez à {email} et on vous répondra dans un délai de 30 jours. Si notre réponse ne vous satisfait pas, vous pouvez porter plainte auprès de la Commission d'accès à l'information du Québec."
       },
       "changes": {
         "title": "Modifications",
-        "body": "Si on modifie cette politique, on mettra à jour la date en haut de la page."
+        "body": "Si on modifie cette politique, on mettra à jour la date en haut de la page. Si le changement est important, on en informera aussi les personnes avec qui on travaille."
       }
     }
   },

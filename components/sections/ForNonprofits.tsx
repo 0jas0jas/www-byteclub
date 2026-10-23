@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { siteConfig } from "@/config/site";
 import { Section } from "../Section";
 
 const ITEMS = ["get", "cost", "need", "after"] as const;
@@ -30,9 +30,9 @@ export function ForNonprofits() {
         </ul>
       </div>
       <div className="mt-10">
-        <Link href="/partner" className="btn btn-primary">
+        <a href={siteConfig.partnerFormUrl} className="btn btn-primary">
           {t("cta")} <span aria-hidden="true">→</span>
-        </Link>
+        </a>
       </div>
     </Section>
   );
